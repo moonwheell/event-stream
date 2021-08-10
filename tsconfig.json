@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "incremental": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": false,
+    "outDir": "lib",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2017",
+    "lib": ["ESNext"],
+    "strictNullChecks": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "compileOnSave": true,
+  "include": [
+    "src"
+  ],
+  "exclude": ["node_modules", "test", "lib", "**/*spec.ts"],
+  "files": [
+    "node_modules/typescript/lib/lib.es6.d.ts"
+  ],
+}

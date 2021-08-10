@@ -1,0 +1,6 @@
+node_modules/
+lib/
+package-lock.json
+.runtimeconfig.json
+.serviceAccountKey.json
+.firestore_backup.json
